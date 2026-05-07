@@ -61,7 +61,7 @@ WonderWalk arbeitet optimal, wenn die **[Google Gemini App](https://play.google.
 
 Für die Navigation zu Orten empfehlen wir **[OsmAnd](https://osmand.net)** – eine leistungsstarke, datenschutzfreundliche Navigations-App auf Basis von OpenStreetMap, entwickelt von [OsmAnd BV](https://osmand.net/about). OsmAnd passt ideal zur Philosophie von WonderWalk: offen, offline-fähig und community-getrieben. Ein langer Druck auf einen Ort in WonderWalk startet die Navigation direkt in OsmAnd oder einer anderen installierten Navigations-App.
 
-OsmAnd ist kostenlos verfügbar im [Google Play Store](https://play.google.com/store/apps/details?id=net.osmand) sowie bei [F-Droid](https://f-droid.org/packages/net.osmand.plus/).
+OsmAnd ist kostenlos verfügbar im [Google Play Store](https://play.google.com/store/apps/details?id=net.osmand) sowie bei [F-Droid](https://f-droid.org/packages/net.osmand.plus/). Natürlich funktioniert auch **Google Maps** genauso – WonderWalk übergibt den Ort einfach an die auf deinem Gerät installierte Standard-Navigations-App.
 
 ---
 
@@ -105,6 +105,21 @@ Alle KI-Antworten werden **30 Tage lang lokal gespeichert**. Im Verlauf-Tab kann
 ### 🗺️ Kartenansicht
 
 Wische in der POI-Liste nach links, um den gewählten Ort auf einer interaktiven OpenStreetMap-Karte zu sehen – mit deinem aktuellen Standort und allen Orten in der Nähe.
+
+### ✍️ Dein persönlicher Blickwinkel – Prompt-Vorlagen
+
+Das ist vielleicht die mächtigste Funktion von WonderWalk: Du kannst **beliebig viele Prompt-Vorlagen** hinterlegen, die der KI vor jeder Anfrage vorangestellt werden – und damit bestimmst du, welche Art von Text du hörst.
+
+Ob Architektur, Kunstgeschichte, lokale Legenden, geologische Besonderheiten oder kindgerechte Erklärungen – WonderWalk generiert für denselben Ort völlig unterschiedliche Texte, je nachdem, welche Vorlage du aktiviert hast. Das ist der entscheidende Unterschied zu einem einfachen Wikipedia-Vorleser: Nicht der Artikel bestimmt, was du erfährst, sondern **du**.
+
+Beispiele:
+
+- „Erkläre es, als wärst du ein begeisterter Lokalhistoriker"
+- „Fokus auf Architektur und Baustil, ohne historische Details"
+- „Fasse alles in drei kurzen Sätzen für Kinder zusammen"
+- „Erzähle Mythen und Legenden, die mit diesem Ort verbunden sind"
+
+Wer viel unterwegs ist, legt sich einfach mehrere Profile an – und wechselt je nach Stimmung oder Begleitung mit einem Tippen zwischen ihnen.
 
 ### 🔄 Automatische Updates
 
