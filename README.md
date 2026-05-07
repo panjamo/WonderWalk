@@ -49,6 +49,22 @@ Ab sofort kann die KI loslegen.
 
 ---
 
+## WonderWalk als Schnittstelle
+
+WonderWalk versteht sich nicht als geschlossene Lösung, sondern als **Brücke zwischen verschiedenen Welten**: zwischen Kartendaten und KI, zwischen Erkundung und Navigation, zwischen dem, was du siehst, und dem, was dahintersteckt. Die App ist von Grund auf darauf ausgelegt, mit anderen Apps und Diensten zusammenzuarbeiten – jede Funktion kommuniziert mit der besten verfügbaren Quelle.
+
+### 🤖 Gemini App – für die volle KI-Erfahrung
+
+WonderWalk arbeitet optimal, wenn die **[Google Gemini App](https://play.google.com/store/apps/details?id=com.google.android.apps.bard)** auf deinem Gerät installiert ist. Mit einem langen Wischen auf den Sende-Button öffnest du den aktuellen Prompt direkt in der Gemini App – dort kannst du mit der KI weiter chatten, Folgefragen stellen oder den Kontext vertiefen. WonderWalk und Gemini ergänzen sich so zu einem nahtlosen Erkundungserlebnis.
+
+### 🧭 OsmAnd – Navigation mit offenen Karten
+
+Für die Navigation zu Orten empfehlen wir **[OsmAnd](https://osmand.net)** – eine leistungsstarke, datenschutzfreundliche Navigations-App auf Basis von OpenStreetMap, entwickelt von [OsmAnd BV](https://osmand.net/about). OsmAnd passt ideal zur Philosophie von WonderWalk: offen, offline-fähig und community-getrieben. Ein langer Druck auf einen Ort in WonderWalk startet die Navigation direkt in OsmAnd oder einer anderen installierten Navigations-App.
+
+OsmAnd ist kostenlos verfügbar im [Google Play Store](https://play.google.com/store/apps/details?id=net.osmand) sowie bei [F-Droid](https://f-droid.org/packages/net.osmand.plus/).
+
+---
+
 ## Was WonderWalk kann
 
 ### 🗺️ Interessante Orte automatisch finden
