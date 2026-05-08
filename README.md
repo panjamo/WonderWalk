@@ -2,7 +2,7 @@
   <img src="icon.svg" width="96" height="96" alt="WonderWalk Icon"/>
 </p>
 
-<h1 align="center">WonderWalk - Discover the unnoticed</h1>
+<h1 align="center">WonderWalk - Notice the unnoticed</h1>
 
 <p align="center">
   <strong>Dein persönlicher Audio-Reiseführer – angetrieben von KI</strong>
