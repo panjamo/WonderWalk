@@ -9,10 +9,6 @@
 </p>
 
 <p align="center">
-  <em>Notice the unnoticed.</em>
-</p>
-
-<p align="center">
   <a href="https://github.com/panjamo/WonderWalk/releases/latest">
     <img src="https://img.shields.io/github/v/release/panjamo/WonderWalk?label=Download&logo=android&logoColor=white&color=4285F4" alt="Neueste Version herunterladen"/>
   </a>
