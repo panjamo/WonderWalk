@@ -21,22 +21,24 @@
 
 WonderWalk verwandelt jeden Spaziergang in eine Entdeckungstour. Die App erkennt automatisch interessante Orte in deiner Umgebung und lässt eine KI dir deren Geschichte erzählen – auf Wunsch vollautomatisch, Schritt für Schritt, ganz ohne Handyblick.
 
+OpenStreetMap, Wikipedia, Wikidata, Wikimedia Commons, OpenHistoricalMap – diese offenen Wissensquellen existieren nebeneinander, meist ohne miteinander verbunden zu sein. WonderWalk bringt sie zusammen: zu einem einzigen, vollständigen Bild eines Orts, direkt auf deinem Bildschirm. Was du siehst, wo es steht, was es bedeutet, wie die Umgebung klingt – vereint an einem Ort. Und was noch fehlt, kannst du selbst beisteuern: mit einem Foto oder einer Tonaufnahme, die sofort Teil dieses gemeinsamen Wissens wird.
+
 ---
 
 ## Auf einen Blick
 
 | | |
 |---|---|
-| 🚶 **Einfach losgehen** | Kopfhörer rein, Wanderer-Symbol tippen – WonderWalk spricht automatisch, sobald du einem Ort nahe kommst. Kein Handyblick nötig. |
-| 🗺️ **Auf eigene Faust erkunden** | Stöbere durch Orte in deiner Nähe, tippe einen an und lass die KI erzählen – aus deinem Blickwinkel, in deinem Tempo. |
-| 📸 **Ein Foto, eine Frage** | Siehst du etwas, das dich neugierig macht? Kamera antippen, Foto machen – die KI antwortet mit Kontext zu Ort und Motiv. |
-| 🌍 **Wissen zurückgeben** | Orte ohne Foto auf Wikimedia Commons mit drei Clicks bereichern – Beschreibung und Metadaten erstellt die KI automatisch. |
+| **Einfach losgehen** | Kopfhörer rein, Wanderer-Symbol tippen – WonderWalk spricht automatisch, sobald du einem Ort nahe kommst. Kein Handyblick nötig. |
+| **Auf eigene Faust erkunden** | Stöbere durch Orte in deiner Nähe, tippe einen an und lass die KI erzählen – aus deinem Blickwinkel, in deinem Tempo. |
+| **Ein Foto, eine Frage** | Siehst du etwas, das dich neugierig macht? Kamera antippen, Foto machen – die KI antwortet mit Kontext zu Ort und Motiv. |
+| **Wissen zurückgeben** | Lade Fotos und Tonaufnahmen zu Wikimedia Commons hoch – mit drei Schritten, KI-generierter Beschreibung und direkter Verknüpfung mit dem Ort. |
 
 ---
 
 ## Was WonderWalk kann
 
-### 🚶 Einfach losgehen – der Auto-Modus
+### Einfach losgehen – der Auto-Modus
 
 Aktiviere den **Auto-Modus** mit dem Wanderer-Symbol oben, steck dein Handy in die Tasche und geh los. WonderWalk überwacht deinen Standort im Hintergrund und kündigt interessante Orte in deiner Nähe von selbst an – mit einer kurzen Ansage, in welche Himmelsrichtung du schauen musst, gefolgt von der vollständigen KI-Beschreibung.
 
@@ -44,7 +46,7 @@ Aktiviere den **Auto-Modus** mit dem Wanderer-Symbol oben, steck dein Handy in d
 - Bei Tag erfährst du, **wo die Sonne steht** – bei Nacht, **wo der Mond ist** und ob er als Sichel, Halbmond oder Vollmond leuchtet
 - Der Dienst läuft weiter, auch wenn der Bildschirm gesperrt ist
 
-### 🗺️ Auf eigene Faust erkunden
+### Auf eigene Faust erkunden
 
 Die App sucht in einem einstellbaren Radius (50 m bis 2 km) nach Sehenswürdigkeiten, Kirchen, Denkmälern, Museen, Aussichtspunkten, Türmen und vielem mehr – direkt aus OpenStreetMap. Jede Zeile zeigt Entfernung, einen **farbigen Richtungspfeil** (grün = nah, gelb = mittel, orange = weit) sowie die Himmelsrichtung als kompaktes Badge.
 
@@ -61,21 +63,25 @@ Beispiele:
 
 Neben aktuellen Sehenswürdigkeiten kennt WonderWalk auch **verschwundene Orte**: abgerissene Gebäude, frühere Kirchen, ehemalige Fabriken – gespeichert in OpenHistoricalMap.
 
-### 📸 Ein Foto, eine Frage
+### Ein Foto, eine Frage
 
 Siehst du ein Schild, eine Fassade oder ein Kunstwerk, das dich neugierig macht, aber keinen Namen hat? Tippe auf das **Kamera-Symbol**, mach ein Foto – WonderWalk schickt es zusammen mit deinem aktuellen Standort an die KI und bekommt eine Antwort. Schnell, direkt, ohne Umwege.
 
-### 🌍 Wissen zurückgeben – zur Wikimedia-Community beitragen
+### Wissen zurückgeben – zur Wikimedia-Community beitragen
 
-Viele Orte auf der Welt sind in OpenStreetMap und Wikidata eingetragen, haben aber noch kein einziges Foto. WonderWalk weist dich gezielt darauf hin: Mit dem **Foto-fehlt-Filter** in der POI-Liste siehst du auf Anhieb, wo du etwas beitragen kannst.
+Viele Orte auf der Welt sind in OpenStreetMap und Wikidata eingetragen, haben aber weder ein Foto noch eine Tonaufnahme. WonderWalk weist dich gezielt darauf hin: Mit dem **Foto-fehlt-Filter** in der POI-Liste siehst du auf Anhieb, wo du etwas beitragen kannst.
 
-Tippst du auf **„Foto beitragen"**, lädst du dein Bild automatisch zu Wikimedia Commons hoch – WonderWalk erstellt per KI passende Beschreibungen, Kategorien und strukturierte Metadaten und verknüpft das Bild direkt mit dem Wikidata-Eintrag. Kein Fachwissen nötig, kein langer Formularkram.
+**Fotos teilen:** Tippe auf „Foto beitragen" – WonderWalk lädt dein Bild automatisch zu Wikimedia Commons hoch. Die App erstellt per KI passende Beschreibungen, Kategorien und strukturierte Metadaten und verknüpft das Foto direkt mit dem Wikidata-Eintrag. Kein Fachwissen nötig, kein langer Formularkram.
+
+**Klänge teilen:** Neu ist die Möglichkeit, Tonaufnahmen hochzuladen. Nimm den Klang eines Orts auf – das Glockenspiel, den Brunnen, die Atmosphäre einer Gasse – und lade ihn mit denselben drei Schritten hoch. WonderWalk normalisiert die Aufnahme, erstellt Metadaten per KI und stellt sie als freie Audio-Datei auf Wikimedia Commons zur Verfügung.
+
+Was du beisteuert, fließt unmittelbar in das offene Wissensnetz ein. WonderWalk nutzt genau diese Aufnahmen selbst: als Hintergrundklang im Auto-Modus, wenn du dich einem Ort näherst. Was heute jemand anderes an einer Kirche aufgenommen hat, hörst du morgen vielleicht beim Vorbeigehen.
 
 ---
 
 ## Weitere Funktionen
 
-### ⭐ Favoriten & Filter
+### Favoriten & Filter
 
 Markiere interessante Orte mit dem Stern-Symbol. Über die Icons in der Listenüberschrift lässt sich die Anzeige gezielt einschränken:
 
@@ -85,23 +91,23 @@ Markiere interessante Orte mit dem Stern-Symbol. Über die Icons in der Listenü
 
 Alle Filter werden beim App-Neustart automatisch wiederhergestellt.
 
-### 📋 Verlauf und Offline-Zugriff
+### Verlauf und Offline-Zugriff
 
 Alle KI-Antworten werden **30 Tage lang lokal gespeichert**. Im Verlauf-Tab kannst du frühere Antworten jederzeit wiederherstellen – auch ohne Netzwerkverbindung, inklusive Bild und Wikipedia-Text. Jeder Eintrag zeigt kompakt: Name des Orts, Zeit · Stadt · Entfernung.
 
-### 🗺️ Kartenansicht
+### Kartenansicht
 
 Wische in der POI-Liste nach links, um den gewählten Ort auf einer interaktiven OpenStreetMap-Karte zu sehen – mit deinem aktuellen Standort und allen Orten in der Nähe. Ein langer Druck auf die Karte setzt einen festen Standort für Vorschautouren ohne GPS.
 
-### 🌍 Mehrsprachige Oberfläche
+### Mehrsprachige Oberfläche
 
 Wenn die Sprachausgabe deines Geräts auf eine andere Sprache als Deutsch eingestellt ist, bietet WonderWalk an, die gesamte Oberfläche per Gemini zu übersetzen. Der Fortschritt ist live als Balken sichtbar; die Übersetzung wird lokal gespeichert und bei Updates automatisch ergänzt.
 
-### 📡 RSS-Export
+### RSS-Export
 
 Alle gespeicherten KI-Antworten lassen sich als RSS-Feed-Datei exportieren – zum Weiterverarbeiten oder Archivieren.
 
-### 🔄 Automatische Updates
+### Automatische Updates
 
 WonderWalk prüft beim Start, ob eine neue Version verfügbar ist. Falls ja, erscheint ein Hinweis im Menü unter **App aktualisieren**.
 
@@ -136,11 +142,11 @@ WonderWalk prüft beim Start, ob eine neue Version verfügbar ist. Falls ja, ers
 
 WonderWalk versteht sich nicht als geschlossene Lösung, sondern als **Brücke zwischen verschiedenen Welten**: zwischen Kartendaten und KI, zwischen Erkundung und Navigation, zwischen dem, was du siehst, und dem, was dahintersteckt.
 
-### 🤖 Gemini App – für die volle KI-Erfahrung
+### Gemini App – für die volle KI-Erfahrung
 
 Mit einem langen Wischen auf den Sende-Button öffnest du den aktuellen Prompt direkt in der **[Google Gemini App](https://play.google.com/store/apps/details?id=com.google.android.apps.bard)** – dort kannst du mit der KI weiter chatten, Folgefragen stellen oder den Kontext vertiefen.
 
-### 🧭 OsmAnd – Navigation mit offenen Karten
+### OsmAnd – Navigation mit offenen Karten
 
 Ein langer Druck auf einen Ort startet die Navigation direkt in **[OsmAnd](https://osmand.net)** oder einer anderen installierten Navigations-App – natürlich funktioniert auch Google Maps. OsmAnd ist kostenlos im [Google Play Store](https://play.google.com/store/apps/details?id=net.osmand) und bei [F-Droid](https://f-droid.org/packages/net.osmand.plus/) verfügbar.
 
@@ -175,7 +181,7 @@ WonderWalk wäre ohne diese großartigen offenen Projekte nicht möglich:
 - [OpenHistoricalMap](https://www.openhistoricalmap.org) – Historische Geodaten (ODbL)
 - [Wikipedia](https://www.wikipedia.org) – Artikeltexte (CC BY-SA)
 - [Wikidata](https://www.wikidata.org) – Strukturierte Daten (CC0)
-- [Wikimedia Commons](https://commons.wikimedia.org) – Bilder (verschiedene freie Lizenzen)
+- [Wikimedia Commons](https://commons.wikimedia.org) – Bilder und Töne (verschiedene freie Lizenzen)
 - [Google Gemini](https://ai.google.dev) – KI-Textgenerierung
 
 ---
@@ -186,7 +192,7 @@ WonderWalk nutzt die Google Gemini KI. Dafür brauchst du einen **kostenlosen AP
 
 1. Besuche [aistudio.google.com](https://aistudio.google.com) und melde dich mit deinem Google-Konto an
 2. Erstelle einen neuen API-Key (kostenlos, keine Kreditkarte nötig)
-3. Öffne WonderWalk → tippe oben rechts auf **⚙️** → **API-Keys**
+3. Öffne WonderWalk → tippe oben rechts auf das Zahnrad-Symbol → **API-Keys**
 4. Füge deinen Key ein und tippe auf **Hinzufügen**
 
 Ab sofort kann die KI loslegen.
