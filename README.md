@@ -294,12 +294,12 @@ In eigenen Prompt-Vorlagen kannst du Platzhalter der Form `{{NAME}}` verwenden, 
 
 WonderWalk wäre ohne diese großartigen offenen Projekte nicht möglich:
 
-- [OpenStreetMap](https://www.openstreetmap.org) – Kartendaten (ODbL)
-- [OpenHistoricalMap](https://www.openhistoricalmap.org) – Historische Geodaten (ODbL)
-- [Wikipedia](https://www.wikipedia.org) – Artikeltexte (CC BY-SA)
-- [Wikidata](https://www.wikidata.org) – Strukturierte Daten (CC0)
-- [Wikimedia Commons](https://commons.wikimedia.org) – Bilder und Töne (verschiedene freie Lizenzen)
-- [Google Gemini](https://ai.google.dev) – KI-Textgenerierung
+- [![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-ODbL-7EBC6F?logo=openstreetmap&logoColor=white)](https://www.openstreetmap.org) – Kartendaten
+- [![OpenHistoricalMap](https://img.shields.io/badge/OpenHistoricalMap-ODbL-8B4513?logoColor=white)](https://www.openhistoricalmap.org) – Historische Geodaten
+- [![Wikipedia](https://img.shields.io/badge/Wikipedia-CC_BY--SA-808080?logo=wikipedia&logoColor=white)](https://www.wikipedia.org) – Artikeltexte
+- [![Wikidata](https://img.shields.io/badge/Wikidata-CC0-006699?logo=wikidata&logoColor=white)](https://www.wikidata.org) – Strukturierte Daten
+- [![Wikimedia Commons](https://img.shields.io/badge/Wikimedia_Commons-freie_Lizenzen-396196?logo=wikimediacommons&logoColor=white)](https://commons.wikimedia.org) – Bilder und Töne
+- [![Google Gemini](https://img.shields.io/badge/Google_Gemini-KI-4285F4?logo=google&logoColor=white)](https://ai.google.dev) – KI-Textgenerierung
 
 ---
 
