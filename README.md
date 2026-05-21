@@ -25,6 +25,16 @@ OpenStreetMap, Wikipedia, Wikidata, Wikimedia Commons, OpenHistoricalMap – die
 
 ---
 
+WonderWalk lässt sich auf zwei völlig unabhängige Weisen nutzen:
+
+**Als Audio-Reiseführer** – du gehst los, die App erzählt. Kein Handyblick nötig.
+
+**Als Wikimedia-Beitragswerkzeug** – du öffnest die App zu Hause oder unterwegs, siehst in einer einheitlichen Liste alle Orte der Umgebung und erkennst sofort, wo noch Fotos fehlen. Mit wenigen Tippen lädst du Bild oder Ton hoch: die KI schreibt Beschreibung, Kategorien und Metadaten, verknüpft alles mit dem Wikidata-Eintrag – fertig. Keine Wikimedia-Kenntnisse nötig, keine Formulare.
+
+**Keine Kosten, keine Abos, keine Datenfallen.** Alle Reise- und Ortsinformationen stammen aus offenen, öffentlichen Quellen – OpenStreetMap, Wikipedia, Wikidata. Es gibt keine Touren zu kaufen, keine Mitgliedschaft, keinen versteckten Verbrauch persönlicher Daten. Die Google-Gemini-KI ist im normalen Nutzungsumfang kostenlos; wer mehr braucht, trägt seinen eigenen API-Key ein.
+
+---
+
 ## Auf einen Blick
 
 | | |
