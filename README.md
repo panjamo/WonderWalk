@@ -183,6 +183,7 @@ WonderWalk prüft beim Start, ob eine neue Version verfügbar ist. Falls ja, ers
 | Geste | Was passiert |
 |-------|-------------|
 | Reiter antippen | Zu diesem Tab wechseln |
+| **Verlauf**-Reiter antippen oder nach rechts wischen | POI-Zustand zurücksetzen (wie Sende-Button lang drücken) |
 | Horizontal wischen | Zwischen Tabs wechseln (zyklisch) |
 | Im **Prompt-Tab** nach **links** wischen | Prompt in der Gemini-App öffnen (nur wenn Prompt vorhanden) |
 | **Zwei-Finger-Spreizen** | POI-Standort teilen; im Bild-Tab mit Nachweis: Commons-Seite öffnen |
@@ -226,6 +227,18 @@ WonderWalk prüft beim Start, ob eine neue Version verfügbar ist. Falls ja, ers
 | **Kamera-Symbol** antippen | Auswahlmenü: Foto machen / Klang aufnehmen / Beitrag hochladen |
 | **Ambiente-Klang-Banner** 🚫 antippen | Aktuelle Audiodatei dauerhaft sperren und Wiedergabe stoppen |
 
+### Car Mode
+
+| Geste | Was passiert |
+|-------|-------------|
+| **POI-Bild** antippen | Sprachausgabe pausieren / fortsetzen |
+| **POI-Bild lang drücken** | Laufende Ansage abbrechen |
+| **POI-Bild** Zwei-Finger-Spreizen | Bildnachweis (Wikimedia Commons) öffnen |
+| **Karte lang drücken** | Google Street View am aktuellen POI öffnen |
+| **✨-Knopf** (Karte, unten rechts) | Führungsvorlage mit aktuellem POI-Kontext an Gemini senden |
+| **Segment Walk / Story / Beides** | Modus wechseln ohne Car Mode zu verlassen |
+| **Segment Schließen** | Car Mode beenden und Dienst stoppen |
+
 ### Sonstiges
 
 | Geste | Was passiert |
@@ -236,7 +249,7 @@ WonderWalk prüft beim Start, ob eine neue Version verfügbar ist. Falls ja, ers
 
 ## WonderWalk als Schnittstelle
 
-WonderWalk versteht sich nicht als geschlossene Lösung, sondern als **Brücke zwischen verschiedenen Welten**: zwischen Kartendaten und KI, zwischen Erkundung und Navigation, zwischen dem, was du siehst, und dem, was dahintersteckt.
+WonderWalk versteht sich nicht als geschlossene Lösung, sondern als **Brücke zwischen verschiedenen Welten**: zwischen Kartendaten und KI, zwischen Erkundung und Navigation, zwischen dem, was du siehst, und dem, was dahintersteckt. Drei Apps lassen sich direkt aus WonderWalk heraus öffnen:
 
 ### Gemini App – für die volle KI-Erfahrung
 
@@ -245,6 +258,10 @@ Mit einem langen Wischen auf den Sende-Button öffnest du den aktuellen Prompt d
 ### OsmAnd – Navigation mit offenen Karten
 
 Ein langer Druck auf einen Ort startet die Navigation direkt in **[OsmAnd](https://osmand.net)** oder einer anderen installierten Navigations-App – natürlich funktioniert auch Google Maps. OsmAnd ist kostenlos im [Google Play Store](https://play.google.com/store/apps/details?id=net.osmand) und bei [F-Droid](https://f-droid.org/packages/net.osmand.plus/) verfügbar.
+
+### Google Maps – Straßenansicht direkt am Ort
+
+Tippe im Antwort-Tab auf das **Street-View-Symbol** unter dem Bildnachweis, oder halte die Karte im **Car Mode** lang gedrückt: WonderWalk öffnet **[Google Street View](https://maps.google.com)** direkt am aktuellen POI – für einen visuellen Eindruck des Orts, bevor du dort ankommst. Ist Google Maps nicht installiert, öffnet sich Street View im Browser.
 
 ---
 
@@ -271,7 +288,10 @@ In eigenen Prompt-Vorlagen kannst du Platzhalter der Form `{{NAME}}` verwenden, 
 | `{{REGION_CONTEXT}}` | Stadtname des aktuellen Standorts laut Nominatim-Geocodierung (z. B. `München`) | Geschichtenerzähler |
 | `{{LOCATION_CONTEXT}}` | Vollständige Adresse des aktuellen Standorts (z. B. `Marienplatz 1, 80331 München`); Koordinaten als Fallback wenn keine Adresse verfügbar | Geschichtenerzähler |
 | `{{TOLD_STORIES}}` | Liste bereits erzählter Geschichten mit Titel, Kategorie und Themen-ID – damit die KI Wiederholungen vermeidet | Geschichtenerzähler |
+| `{{POIS}}` | Kurzliste der aktuell sichtbaren Orte in der Nähe (Name, Typ) als einfache Bullet-Liste – nützlich, damit die KI Bezüge zu benachbarten Orten herstellen kann | Geschichtenerzähler, POI-Modus |
+| `{{RECENT_ABSTRACTS}}` | Kürzlich abgerufene Wikipedia-Kurztexte als XML-Block – hilft der KI, Inhalte nicht zu wiederholen | POI-Modus |
 | `{{LANG}}` | Sprachname der TTS-Systemsprache in dieser Sprache (z. B. `Deutsch`, `English`, `Français`) – nützlich, um die KI explizit zur Antwort in der Gerätesprache anzuweisen | Alle Modi |
+| `{{WORD_COUNT}}` | Zielwortanzahl für die KI-Antwort als Zahl (Standard: 350) – steuerbar über die Auto-Modus-Einstellungen | Alle Modi |
 
 **Hinweise:**
 - Nicht verwendete Platzhalter werden durch einen leeren String ersetzt und hinterlassen keine Spuren im fertigen Prompt.
