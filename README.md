@@ -35,6 +35,15 @@ WonderWalk lässt sich auf zwei völlig unabhängige Weisen nutzen:
 
 ---
 
+## Screenshots
+
+| Manueller Modus | KI-Antwort | Kartenansicht | Walk-Mode | Einstellungen |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="pictures/signal-2026-06-06-185738_002.png" width="160" alt="POI-Liste mit Bild"/> | <img src="pictures/signal-2026-06-06-185738_004.png" width="160" alt="KI-Antwort im Antwort-Tab"/> | <img src="pictures/signal-2026-06-06-185738_003.png" width="160" alt="Kartenansicht mit POIs"/> | <img src="pictures/signal-2026-06-06-185738_005.png" width="160" alt="Walk-Mode mit POI-Bild und Karte"/> | <img src="pictures/signal-2026-06-06-185738_006.png" width="160" alt="Einstellungen – Blickwinkel & KI-Kontext"/> |
+| POI-Liste mit Foto, Entfernung und Himmelsrichtung | KI-Beschreibung mit Wikipedia-Kontext im Antwort-Tab | Alle Orte in der Nähe auf einer Karte | Auto-Modus: POI-Bild oben, Karte mit Umgebung unten | Blickwinkel, Prompt-Modi und KI-Kontexteinstellungen |
+
+---
+
 ## Auf einen Blick
 
 | | |
@@ -227,7 +236,7 @@ WonderWalk prüft beim Start, ob eine neue Version verfügbar ist. Falls ja, ers
 | **Kamera-Symbol** antippen | Auswahlmenü: Foto machen / Klang aufnehmen / Beitrag hochladen |
 | **Ambiente-Klang-Banner** 🚫 antippen | Aktuelle Audiodatei dauerhaft sperren und Wiedergabe stoppen |
 
-### Car Mode
+### Walk-Mode
 
 | Geste | Was passiert |
 |-------|-------------|
@@ -236,8 +245,8 @@ WonderWalk prüft beim Start, ob eine neue Version verfügbar ist. Falls ja, ers
 | **POI-Bild** Zwei-Finger-Spreizen | Bildnachweis (Wikimedia Commons) öffnen |
 | **Karte lang drücken** | Google Street View am aktuellen POI öffnen |
 | **✨-Knopf** (Karte, unten rechts) | Führungsvorlage mit aktuellem POI-Kontext an Gemini senden |
-| **Segment Walk / Story / Beides** | Modus wechseln ohne Car Mode zu verlassen |
-| **Segment Schließen** | Car Mode beenden und Dienst stoppen |
+| **Segment Walk / Story / Beides** | Modus wechseln ohne Walk-Mode zu verlassen |
+| **Segment Schließen** | Walk-Mode beenden und Dienst stoppen |
 
 ### Sonstiges
 
@@ -261,7 +270,7 @@ Ein langer Druck auf einen Ort startet die Navigation direkt in **[OsmAnd](https
 
 ### Google Maps – Straßenansicht direkt am Ort
 
-Tippe im Antwort-Tab auf das **Street-View-Symbol** unter dem Bildnachweis, oder halte die Karte im **Car Mode** lang gedrückt: WonderWalk öffnet **[Google Street View](https://maps.google.com)** direkt am aktuellen POI – für einen visuellen Eindruck des Orts, bevor du dort ankommst. Ist Google Maps nicht installiert, öffnet sich Street View im Browser.
+Tippe im Antwort-Tab auf das **Street-View-Symbol** unter dem Bildnachweis, oder halte die Karte im **Walk-Mode** lang gedrückt: WonderWalk öffnet **[Google Street View](https://maps.google.com)** direkt am aktuellen POI – für einen visuellen Eindruck des Orts, bevor du dort ankommst. Ist Google Maps nicht installiert, öffnet sich Street View im Browser.
 
 ---
 
