@@ -47,11 +47,10 @@ WonderWalk lässt sich auf zwei völlig unabhängige Weisen nutzen:
 <td width="50%" align="center"><img src="pictures/signal-2026-06-06-185738_005.png" width="100%" alt="Walk-Mode mit POI-Bild und Karte"/><br/><strong>Walk-Mode</strong> – POI-Bild oben, Karte mit Umgebung unten</td>
 </tr></table>
 
-<p align="center">
-  <img src="pictures/signal-2026-06-06-185738_006.png" width="48%" alt="Einstellungen – Blickwinkel & KI-Kontext"/>
-  <br/>
-  <em><strong>Einstellungen</strong> – Blickwinkel, Prompt-Modi und KI-Kontext</em>
-</p>
+<table width="100%"><tr>
+<td width="50%" align="center"><img src="pictures/signal-2026-06-06-194805_002.png" width="100%" alt="Walk-Mode – Geschichten-Modus ohne konkreten Ort"/><br/><strong>Walk-Mode Geschichten</strong> – standortbasierte Geschichte ohne festen POI</td>
+<td width="50%" align="center"><img src="pictures/signal-2026-06-06-185738_006.png" width="100%" alt="Einstellungen – Blickwinkel & KI-Kontext"/><br/><strong>Einstellungen</strong> – Blickwinkel, Prompt-Modi und KI-Kontext</td>
+</tr></table>
 
 ---
 
