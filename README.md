@@ -75,6 +75,7 @@ Aktiviere den **Auto-Modus** mit dem Wanderer-Symbol oben, steck dein Handy in d
 - Jeder Ort wird **nur einmal** angesagt, auch nach einem App-Neustart nie wieder
 - Bei Tag erfährst du, **wo die Sonne steht** – bei Nacht, **wo der Mond ist** und ob er als Sichel, Halbmond oder Vollmond leuchtet
 - Der Dienst läuft weiter, auch wenn der Bildschirm gesperrt ist
+- **Gebietsansagen**: Wenn du eine neue Stadt, einen Nationalpark, ein Biosphärenreservat oder eine geografische Region betrittst, kündigt WonderWalk das automatisch an – mit einer KI-Beschreibung auf Basis von Wikipedia. In den Auto-Modus-Einstellungen lässt sich steuern, ab welcher Reisegeschwindigkeit Gebietsansagen aktiv sind (zu Fuß / Rad / Auto / aus).
 - **Ambiente-Klänge**: Zu jeder Ansage erklingen passende Hintergrundgeräusche aus Wikimedia Commons – Vogelstimmen im Park, Kirchenglocken am Dom, Zuggeräusche am Bahnhof, Wasserrauschen am Fluss. Die KI wählt die passendste Kategorie aus. Sounds werden lokal gespeichert und sind nach dem ersten Abruf offline verfügbar. Der Klang blendet sanft ein, zieht sich zurück während gesprochen wird und klingt danach langsam aus. Über das **🚫-Symbol** im Banner unten links lässt sich eine Datei sofort stoppen und dauerhaft sperren – sie wird nie wieder abgespielt. Die Sperrliste ist im Menü unter **Ambiente-Klänge** einsehbar und editierbar.
 
 ### Auf eigene Faust erkunden
@@ -229,9 +230,9 @@ WonderWalk prüft beim Start, ob eine neue Version verfügbar ist. Falls ja, ers
 
 | Geste | Was passiert |
 |-------|-------------|
-| **Wanderer-Symbol** antippen | Auto-Modus ein-/ausschalten |
+| **Wanderer-Symbol** antippen | Walk-Mode öffnen (Auto-Modus starten) |
 | **Wanderer-Symbol lang drücken** | Auto-Modus-Einstellungen öffnen |
-| **Geschichten-Symbol** antippen | Geschichten-Modus ein-/ausschalten |
+| **Geschichten-Symbol** antippen | Walk-Mode öffnen (Geschichten-Modus starten) |
 | **Einstellungen-Symbol** antippen | Einstellungsmenü öffnen |
 
 ### Schwebende Aktionsbuttons (FABs)
