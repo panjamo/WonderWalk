@@ -72,7 +72,7 @@ WonderWalk lässt sich auf zwei völlig unabhängige Weisen nutzen:
 
 Aktiviere den **Auto-Modus** mit dem Wanderer-Symbol oben, steck dein Handy in die Tasche und geh los. WonderWalk überwacht deinen Standort im Hintergrund und kündigt interessante Orte in deiner Nähe von selbst an – mit einer kurzen Ansage, in welche Himmelsrichtung du schauen musst, gefolgt von der vollständigen KI-Beschreibung.
 
-- Jeder Ort wird **nur einmal** angesagt, auch nach einem App-Neustart nie wieder – in den Auto-Modus-Einstellungen lässt sich jedoch eine **Wiederholungsverzögerung** und eine maximale Wiederholungsanzahl konfigurieren, sodass Orte nach einer einstellbaren Pause erneut angesagt werden
+- Jeder Ort wird **nur einmal** angesagt, auch nach einem App-Neustart nie wieder – in den Auto-Modus-Einstellungen lässt sich jedoch eine **Wiederholungsverzögerung** und eine maximale Wiederholungsanzahl konfigurieren, sodass WonderWalk nach einer einstellbaren Pause eine neue KI-Beschreibung erstellt und so einen weiteren Aspekt des Ortes beleuchtet
 - Bei Tag erfährst du, **wo die Sonne steht** – bei Nacht, **wo der Mond ist** und ob er als Sichel, Halbmond oder Vollmond leuchtet
 - Der Dienst läuft weiter, auch wenn der Bildschirm gesperrt ist
 - **Gebietsansagen**: Wenn du eine neue Stadt, einen Nationalpark, ein Biosphärenreservat oder eine geografische Region betrittst, kündigt WonderWalk das automatisch an – mit einer KI-Beschreibung auf Basis von Wikipedia. In den Auto-Modus-Einstellungen lässt sich steuern, ab welcher Reisegeschwindigkeit Gebietsansagen aktiv sind (zu Fuß / Rad / Auto / aus).
