@@ -83,7 +83,7 @@ Die App sucht in einem einstellbaren Radius (50 m bis 2 km) nach Sehenswürdigke
 
 Tippe einen Ort an – WonderWalk lädt im Hintergrund den zugehörigen Wikipedia-Artikel, Wikidata-Einträge und ein Foto und übergibt alles an Google Gemini. Das Ergebnis: eine lebendige Beschreibung, die weit über das hinausgeht, was eine gewöhnliche Reiseführer-App leisten kann. Jede KI-Antwort kann dir vorgelesen werden; die Wiedergabe lässt sich pausieren und genau dort fortsetzen, wo du aufgehört hast.
 
-Du bestimmst dabei den Blickwinkel über drei unabhängige **Prompt-Modi**: **Audioguide** für klassische POI-Erklärungen, **Geschichtenerzähler** für standortbasierte Geschichten und **Zusatzinfo** für Folgefragen per Info-Button. Jeder Modus lässt sich mit eigenen Anweisungen belegen – die KI kann Vorlagen auf Wunsch verfeinern.
+Den Blickwinkel bestimmst du über drei unabhängige **Prompt-Modi**: **Audioguide**, **Geschichtenerzähler** und **Zusatzinfo**. Im Audioguide stehen sechs fertige Perspektiven zur Wahl – **Historiker**, **Architekt**, **Naturkenner**, **Reisender**, **Familienführer** und **Stadtentdecker** – jede mit einem anderen Fokus auf denselben Ort. Der Geschichtenerzähler erzeugt ortsgebundene Kurzgeschichten statt sachlicher Beschreibungen. Alle Modi lassen sich frei anpassen, oder du erstellst mit einer kurzen Beschreibung deinen ganz eigenen Stil – die KI hilft dabei, die Vorlage auszuformulieren.
 
 Beispiele:
 
