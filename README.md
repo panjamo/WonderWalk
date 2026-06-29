@@ -70,7 +70,7 @@ WonderWalk lässt sich auf zwei völlig unabhängige Weisen nutzen:
 
 ### Einfach losgehen – der Auto-Modus
 
-Aktiviere den **Auto-Modus** mit dem Wanderer-Symbol oben, steck dein Handy in die Tasche und geh los. WonderWalk überwacht deinen Standort im Hintergrund und kündigt interessante Orte in deiner Nähe von selbst an – mit einer kurzen Ansage, in welche Himmelsrichtung du schauen musst, gefolgt von der vollständigen KI-Beschreibung.
+Aktiviere den **Auto-Modus** mit dem Wanderer-Symbol oben, steck dein Handy in die Tasche und geh los. Zum Start begrüßt dich WonderWalk mit einer kurzen, zur Tageszeit passenden Ansage. Die App überwacht deinen Standort im Hintergrund und kündigt interessante Orte in deiner Nähe von selbst an – ein sanfter Signalton, dann eine kurze Ansage, in welche Himmelsrichtung du schauen musst, gefolgt von der vollständigen KI-Beschreibung.
 
 - Jeder Ort wird **nur einmal** angesagt, auch nach einem App-Neustart nie wieder – in den Auto-Modus-Einstellungen lässt sich jedoch eine **Wiederholungsverzögerung** und eine maximale Wiederholungsanzahl konfigurieren, sodass WonderWalk nach einer einstellbaren Pause eine neue KI-Beschreibung erstellt und so einen weiteren Aspekt des Ortes beleuchtet
 - Der Dienst läuft weiter, auch wenn der Bildschirm gesperrt ist
@@ -81,7 +81,7 @@ Aktiviere den **Auto-Modus** mit dem Wanderer-Symbol oben, steck dein Handy in d
 
 Die App sucht in einem einstellbaren Radius (50 m bis 2 km) nach Sehenswürdigkeiten, Kirchen, Denkmälern, Museen, Aussichtspunkten, Türmen und vielem mehr – direkt aus OpenStreetMap. Jede Zeile zeigt Entfernung, einen **farbigen Richtungspfeil** (grün = nah, gelb = mittel, orange = weit) sowie die Himmelsrichtung als kompaktes Badge.
 
-Tippe einen Ort an – WonderWalk lädt im Hintergrund den zugehörigen Wikipedia-Artikel, Wikidata-Einträge und ein Foto und übergibt alles an Google Gemini. Das Ergebnis: eine lebendige Beschreibung, die weit über das hinausgeht, was eine gewöhnliche Reiseführer-App leisten kann. Jede KI-Antwort kann dir vorgelesen werden; die Wiedergabe lässt sich pausieren und genau dort fortsetzen, wo du aufgehört hast.
+Tippe einen Ort an – WonderWalk lädt im Hintergrund den zugehörigen Wikipedia-Artikel (bevorzugt in deiner Gerätesprache), Wikidata-Einträge und ein Foto und übergibt alles an Google Gemini. Das Ergebnis: eine lebendige Beschreibung, die weit über das hinausgeht, was eine gewöhnliche Reiseführer-App leisten kann. Jede KI-Antwort kann dir vorgelesen werden; die Wiedergabe lässt sich pausieren und genau dort fortsetzen, wo du aufgehört hast.
 
 Den Blickwinkel bestimmst du über drei unabhängige **Prompt-Modi**: **Audioguide**, **Geschichtenerzähler** und **Zusatzinfo**. Im Audioguide stehen sechs fertige Perspektiven zur Wahl – **Historiker**, **Architekt**, **Naturkenner**, **Reisender**, **Familienführer** und **Stadtentdecker** – jede mit einem anderen Fokus auf denselben Ort. Der Geschichtenerzähler erzeugt ortsgebundene Kurzgeschichten statt sachlicher Beschreibungen. Alle Modi lassen sich frei anpassen, oder du erstellst mit einer kurzen Beschreibung deinen ganz eigenen Stil – die KI hilft dabei, die Vorlage auszuformulieren.
 
@@ -292,7 +292,10 @@ Tippe im Antwort-Tab auf das **Street-View-Symbol** unter dem Bildnachweis, oder
 - **Prompt-Modi**: drei unabhängige Vorlagen – Audioguide (POI-Erklärungen), Geschichtenerzähler (standortbasierte Geschichten) und Zusatzinfo (Folgefragen per Info-Button); KI kann Vorlagen auf Wunsch verfeinern
 - **Mehrere API-Keys**: mehrere Gemini-Keys hinterlegen – bei Quota-Fehlern wechselt die App automatisch zum nächsten Key
 - **Eigene OSM-Tags**: beliebige Ortstypen nach eigenen Kriterien suchen (auch mit Regex-Filtern)
-- **Einstellungen exportieren/importieren**: Backup aller Einstellungen als JSON-Datei, ideal beim Gerätewechsel
+- **Regionsbilder an die KI**: optional unterdrücken, ob bei Gebietsansagen ein Bild an Gemini übermittelt wird
+- **Einstellungen exportieren/importieren**: Backup aller Einstellungen als JSON-Datei, ideal beim Gerätewechsel (erfordert WonderWalk Pro)
+
+> Im Querformat zeigt WonderWalk ein **zweispaltiges Layout** – links die Ortsliste, rechts der Ergebnisbereich –, sodass beides gleichzeitig sichtbar bleibt.
 
 ---
 
@@ -352,6 +355,17 @@ WonderWalk nutzt die Google Gemini KI. Dafür brauchst du einen **kostenlosen AP
 4. Füge deinen Key ein und tippe auf **Hinzufügen**
 
 Ab sofort kann die KI loslegen.
+
+---
+
+## WonderWalk Pro & Testphase
+
+WonderWalk lässt sich **7 Tage lang kostenlos** mit allen Funktionen ausprobieren – die Testphase beginnt beim ersten App-Start. Danach schaltet ein **einmaliger Kauf von WonderWalk Pro** alle Funktionen dauerhaft frei: **kein Abo, keine Werbung** – einmal zahlen, für immer nutzen, und damit die Weiterentwicklung unterstützen. 💚
+
+Alternativ kannst du einen **Freischaltcode** eingeben. Beides findest du im Menü unter **Über → WonderWalk Pro**.
+
+- Eine Neuinstallation gewährt weitere 7 Testtage – aber nur Pro behält alle Funktionen dauerhaft.
+- Das **Exportieren und Importieren von Einstellungen** erfordert Pro (Kauf oder Freischaltcode) – auch während der Testphase.
 
 ---
 
