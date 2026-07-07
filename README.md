@@ -148,7 +148,7 @@ Swipe left in the POI list to see the selected place on an interactive OpenStree
 
 ### Multilingual interface
 
-If your device's speech output is set to a language other than German, WonderWalk offers to translate the entire interface via Gemini. Progress is visible live as a bar; the translation is stored locally and automatically extended on updates.
+If your device's speech output is set to a language other than German, WonderWalk offers to translate the entire interface via Gemini. Progress is visible live as a bar; the translation is stored locally and automatically extended on updates. The setup screen is already shown in around 70 device languages even before an API key is entered; the rest of the interface can then be translated by the AI into virtually any language.
 
 ### RSS export
 
