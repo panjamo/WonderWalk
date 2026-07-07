@@ -30,7 +30,7 @@ Take a photo and ask the AI about it directly. If an image for a place is missin
 • Mark and filter favorites
 • 30-day history, available offline
 • Interactive map with your location
-• Multilingual interface via AI translation
+• Multilingual interface: setup screen in ~70 device languages, full UI via AI translation
 • RSS export for podcast players
 • Fixed location for preview tours without GPS
 
