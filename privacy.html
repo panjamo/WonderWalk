@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Datenschutzerklärung – WonderWalk</title>
+  <title>Privacy Policy – WonderWalk</title>
   <style>
     :root {
       --primary: #4285F4;
@@ -96,185 +96,177 @@
   <header>
     <div class="app-icon">🗺️</div>
     <div>
-      <h1>Datenschutzerklärung</h1>
-      <div class="meta">WonderWalk · Stand: Juni 2026</div>
+      <h1>Privacy Policy</h1>
+      <div class="meta">WonderWalk · Last updated: June 2026</div>
     </div>
   </header>
 
   <p>
-    WonderWalk ist ein GPS-basierter KI-Audioguide für Android. Diese Datenschutzerklärung
-    erläutert, welche Daten die App überträgt, an wen und zu welchem Zweck.
+    WonderWalk is a GPS-based AI audio guide for Android. This privacy policy
+    explains which data the app transmits, to whom and for what purpose.
   </p>
 
-  <h2>Grundsätze</h2>
+  <h2>Principles</h2>
   <ul>
-    <li>Es werden <strong>keine persönlichen Nutzeridentifikatoren</strong> erhoben oder gespeichert.</li>
-    <li>Die App betreibt <strong>keine eigenen Server</strong>. Alle Daten gehen direkt an öffentliche Drittdienste.</li>
-    <li>Standortdaten werden nur als Teil von Such- und Geocodieranfragen übertragen – nie dauerhaft auf einem Server gespeichert.</li>
-    <li>Alle lokal gespeicherten Daten (API-Keys, Verlauf, Cache) verbleiben ausschließlich auf dem Gerät.</li>
-    <li>Es gibt keine Werbung, kein Tracking und keine Analyse des Nutzerverhaltens.</li>
+    <li><strong>No personal user identifiers</strong> are collected or stored.</li>
+    <li>The app runs <strong>no servers of its own</strong>. All data goes directly to public third-party services.</li>
+    <li>Location data is transmitted only as part of search and geocoding requests – never stored permanently on a server.</li>
+    <li>All locally stored data (API keys, history, cache) stays exclusively on the device.</li>
+    <li>There is no advertising, no tracking and no analysis of user behavior.</li>
   </ul>
 
-  <h2>Datenübertragungen</h2>
+  <h2>Data transfers</h2>
 
   <div class="card">
     <strong>
-      <span class="badge">Pflicht</span>
       Google Gemini API (api.gemini.google.com)
     </strong>
     <span>
-      Wenn du eine KI-Anfrage stellst oder der Auto-Modus aktiv ist, überträgt die App den
-      aufgebauten Prompt an die Gemini API. Dieser kann enthalten: POI-Namen, OSM-Tags,
-      Wikipedia-Text, Wikidata-Auszüge sowie optional ein Foto des POIs oder ein selbst
-      aufgenommenes Kamerabild.<br><br>
-      Der API-Key wird lokal auf deinem Gerät gespeichert und nicht an Dritte weitergegeben.
-      Es gelten die
+      When you make an AI request or auto mode is active, the app transmits the
+      assembled prompt to the Gemini API. It may contain: POI names, OSM tags,
+      Wikipedia text, Wikidata extracts as well as, optionally, a photo of the POI or a
+      camera image you took yourself.<br><br>
+      The API key is stored locally on your device and is not shared with third parties.
+      The
       <a href="https://ai.google.dev/gemini-api/terms" target="_blank">Google Gemini API Terms of Service</a>
-      und die
-      <a href="https://policies.google.com/privacy" target="_blank">Google Datenschutzrichtlinie</a>.
+      and the
+      <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a> apply.
     </span>
   </div>
 
   <div class="card">
     <strong>
-      <span class="badge">Pflicht</span>
       OpenStreetMap Overpass API (overpass-api.de)
     </strong>
     <span>
-      Zur Suche nach Points of Interest in der Nähe werden GPS-Koordinaten und der
-      gewählte Suchradius an die öffentliche Overpass API übertragen. Es werden keine
-      persönlichen Daten übermittelt. Die Nutzung unterliegt den
+      To search for nearby points of interest, GPS coordinates and the
+      chosen search radius are transmitted to the public Overpass API. No
+      personal data is transmitted. Usage is subject to the
       <a href="https://wiki.openstreetmap.org/wiki/Overpass_API" target="_blank">OSMF Usage Policies</a>.
     </span>
   </div>
 
   <div class="card">
     <strong>
-      <span class="badge">Pflicht</span>
-      Nominatim Geocodierung (nominatim.openstreetmap.org)
+      Nominatim geocoding (nominatim.openstreetmap.org)
     </strong>
     <span>
-      Zur Umwandlung von GPS-Koordinaten in eine lesbare Adresse (Reverse Geocoding) werden
-      Koordinaten an Nominatim übertragen. Es werden keine persönlichen Daten übermittelt.
-      Nutzungsrichtlinien: <a href="https://operations.osmfoundation.org/policies/nominatim/" target="_blank">OSMF Nominatim Policy</a>.
+      To convert GPS coordinates into a readable address (reverse geocoding),
+      coordinates are transmitted to Nominatim. No personal data is transmitted.
+      Usage policies: <a href="https://operations.osmfoundation.org/policies/nominatim/" target="_blank">OSMF Nominatim Policy</a>.
     </span>
   </div>
 
   <div class="card">
     <strong>
-      <span class="badge">Pflicht</span>
       Wikipedia / Wikidata / Wikimedia Commons
     </strong>
     <span>
-      Zum Abrufen von Artikeln, Fakten und Medien zu einem POI werden Anfragen an die
-      öffentlichen APIs von Wikipedia, Wikidata und Wikimedia Commons gestellt. Übertragen
-      werden ausschließlich die Bezeichnung oder ID des betreffenden Objekts sowie GPS-
-      Koordinaten für Geo-Suchen. Es werden keine persönlichen Daten übermittelt.
+      To fetch articles, facts and media about a POI, requests are made to the
+      public APIs of Wikipedia, Wikidata and Wikimedia Commons. What is transmitted
+      is only the label or ID of the object concerned as well as GPS
+      coordinates for geo searches. No personal data is transmitted.
     </span>
   </div>
 
   <div class="card">
     <strong>
-      <span class="badge">Pflicht</span>
       OpenHistoricalMap API (openhistoricalmap.org)
     </strong>
     <span>
-      Wenn die OHM-Datenquelle aktiviert ist, werden GPS-Koordinaten zur Suche nach
-      historischen POIs an die OHM Overpass API übertragen. Es werden keine persönlichen
-      Daten übermittelt.
+      When the OHM data source is enabled, GPS coordinates are transmitted to the
+      OHM Overpass API to search for historical POIs. No personal
+      data is transmitted.
     </span>
   </div>
 
   <div class="card">
     <strong>
-      <span class="badge optional">Optional</span>
-      Wikimedia Commons Upload (commons.wikimedia.org)
+      Wikimedia Commons upload (commons.wikimedia.org)
     </strong>
     <span>
-      Wenn du Fotos oder Tonaufnahmen zu Wikimedia Commons hochladen möchtest, wird ein
-      Wikimedia-OAuth2-Token benötigt. Dieses Token wird ausschließlich lokal auf deinem
-      Gerät gespeichert und nicht an Dritte weitergegeben. Beim Upload werden die Mediendatei
-      sowie von dir eingegebene oder KI-generierte Metadaten (Beschreibung, Kategorien)
-      an Wikimedia Commons übermittelt. Hochgeladene Inhalte werden unter einer freien
-      Lizenz (CC BY-SA 4.0) veröffentlicht.
+      If you want to upload photos or audio recordings to Wikimedia Commons, a
+      Wikimedia OAuth2 token is required. This token is stored exclusively locally on your
+      device and is not shared with third parties. On upload, the media file
+      as well as metadata you enter or that is AI-generated (description, categories)
+      are transmitted to Wikimedia Commons. Uploaded content is published under a free
+      license (CC BY-SA 4.0).
     </span>
   </div>
 
   <div class="card">
     <strong>
-      <span class="badge optional">Optional</span>
       Google Play Billing (play.google.com)
     </strong>
     <span>
-      Für den Kauf von WonderWalk Pro wird die Google Play Billing API genutzt. Der
-      Kaufvorgang wird vollständig über Google Play abgewickelt. WonderWalk speichert
-      keine Zahlungsdaten. Es gelten die
-      <a href="https://play.google.com/about/play-terms/" target="_blank">Google Play Nutzungsbedingungen</a>.
+      The Google Play Billing API is used to purchase WonderWalk Pro. The
+      purchase process is handled entirely through Google Play. WonderWalk stores
+      no payment data. The
+      <a href="https://play.google.com/about/play-terms/" target="_blank">Google Play Terms of Service</a> apply.
     </span>
   </div>
 
   <div class="card">
     <strong>
-      <span class="badge">Pflicht</span>
       GitHub API (api.github.com)
     </strong>
     <span>
-      Beim App-Start prüft WonderWalk einmalig über die öffentliche GitHub API, ob eine
-      neue Version verfügbar ist. Es werden keine persönlichen Daten übermittelt.
+      At app startup, WonderWalk checks once via the public GitHub API whether a
+      new version is available. No personal data is transmitted.
     </span>
   </div>
 
-  <h2>Lokal gespeicherte Daten</h2>
-  <p>Folgende Daten werden ausschließlich auf dem Gerät gespeichert und verlassen es nicht:</p>
+  <h2>Locally stored data</h2>
+  <p>The following data is stored exclusively on the device and does not leave it:</p>
   <ul>
-    <li><strong>Gemini API-Keys</strong> – in den App-Einstellungen gespeichert</li>
-    <li><strong>Wikimedia OAuth-Token</strong> – nur wenn du dich eingeloggt hast</li>
-    <li><strong>KI-Antwort-Cache</strong> – Gemini-Antworten, 30 Tage, löschbar unter Einstellungen → Cache</li>
-    <li><strong>Anreicherungs-Cache</strong> – Wikipedia-Texte, Bilder, Wikidata-Auszüge, 7 Tage</li>
-    <li><strong>Ambiente-Klang-Cache</strong> – heruntergeladene Audiodateien, 30 Tage, max. 25 Dateien</li>
-    <li><strong>POI-Verlauf</strong> – bereits besuchte und angekündigte POIs</li>
-    <li><strong>UI-Übersetzungen</strong> – lokal generierte Übersetzungen der App-Oberfläche</li>
-    <li><strong>App-Einstellungen</strong> – Radius, Prompt-Vorlagen, Filter, Favoriten</li>
+    <li><strong>Gemini API keys</strong> – stored in the app settings</li>
+    <li><strong>Wikimedia OAuth token</strong> – only if you have logged in</li>
+    <li><strong>AI answer cache</strong> – Gemini answers, 30 days, deletable under Settings → Cache</li>
+    <li><strong>Enrichment cache</strong> – Wikipedia texts, images, Wikidata extracts, 7 days</li>
+    <li><strong>Ambient soundscape cache</strong> – downloaded audio files, 30 days, max. 25 files</li>
+    <li><strong>POI history</strong> – already visited and announced POIs</li>
+    <li><strong>UI translations</strong> – locally generated translations of the app interface</li>
+    <li><strong>App settings</strong> – radius, prompt templates, filters, favorites</li>
   </ul>
-  <p>All diese Daten können unter <em>Einstellungen → Cache leeren</em> oder über die Android-Systemeinstellungen vollständig gelöscht werden.</p>
+  <p>All of this data can be deleted entirely under <em>Settings → Clear cache</em> or via the Android system settings.</p>
 
-  <h2>Berechtigungen</h2>
+  <h2>Permissions</h2>
   <ul>
-    <li><strong>Standort (Präzise &amp; Ungefähr)</strong> – für die POI-Suche und den Auto-Modus; nur während der Nutzung aktiv, im Auto-Modus als Foreground Service</li>
-    <li><strong>Kamera</strong> – optional, nur wenn du ein Foto aufnehmen oder hochladen möchtest</li>
-    <li><strong>Mikrofon</strong> – optional, nur für Tonaufnahmen zum Upload auf Wikimedia Commons</li>
-    <li><strong>Benachrichtigungen</strong> – für die Statusleiste des Foreground Service im Auto-Modus</li>
-    <li><strong>Internet</strong> – für alle API-Anfragen</li>
-    <li><strong>Externer Speicher</strong> (Android ≤ 12) – für den RSS-Export in den Downloads-Ordner</li>
-  </ul>
-
-  <h2>Drittanbieter-Datenschutzerklärungen</h2>
-  <ul>
-    <li><a href="https://policies.google.com/privacy" target="_blank">Google Datenschutzrichtlinie</a> (Gemini, Play Billing, Play Services)</li>
-    <li><a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy" target="_blank">Wikimedia Foundation Datenschutzrichtlinie</a></li>
-    <li><a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank">OpenStreetMap Foundation Datenschutzrichtlinie</a></li>
+    <li><strong>Location (Precise &amp; Approximate)</strong> – for POI search and auto mode; active only while in use, as a foreground service in auto mode</li>
+    <li><strong>Camera</strong> – optional, only if you want to take or upload a photo</li>
+    <li><strong>Microphone</strong> – optional, only for audio recordings to upload to Wikimedia Commons</li>
+    <li><strong>Notifications</strong> – for the status bar of the foreground service in auto mode</li>
+    <li><strong>Internet</strong> – for all API requests</li>
+    <li><strong>External storage</strong> (Android ≤ 12) – for the RSS export to the Downloads folder</li>
   </ul>
 
-  <h2>Kinder</h2>
+  <h2>Third-party privacy policies</h2>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a> (Gemini, Play Billing, Play Services)</li>
+    <li><a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy" target="_blank">Wikimedia Foundation Privacy Policy</a></li>
+    <li><a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank">OpenStreetMap Foundation Privacy Policy</a></li>
+  </ul>
+
+  <h2>Children</h2>
   <p>
-    WonderWalk richtet sich nicht gezielt an Kinder unter 13 Jahren. Die App erhebt
-    keine personenbezogenen Daten und ist nach IARC als FSK 0 eingestuft.
+    WonderWalk is not specifically directed at children under 13. The app collects
+    no personal data and is rated PEGI 3 / IARC.
   </p>
 
-  <h2>Änderungen dieser Erklärung</h2>
+  <h2>Changes to this policy</h2>
   <p>
-    Bei wesentlichen Änderungen an den Datenübertragungen wird diese Seite aktualisiert.
-    Das Datum der letzten Aktualisierung ist oben angegeben.
+    In case of material changes to the data transfers, this page will be updated.
+    The date of the last update is shown above.
   </p>
 
-  <h2>Kontakt</h2>
+  <h2>Contact</h2>
   <p>
-    Bei Fragen zum Datenschutz: <a href="https://github.com/panjamo/WonderWalk/issues" target="_blank">GitHub Issues</a>
-    oder per E-Mail an <a href="mailto:wonderwalk@panjamo.de">wonderwalk@panjamo.de</a>.
+    For privacy questions: <a href="https://github.com/panjamo/WonderWalk/issues" target="_blank">GitHub Issues</a>
+    or by email to <a href="mailto:wonderwalk@panjamo.de">wonderwalk@panjamo.de</a>.
   </p>
 
   <footer>
-    <p>WonderWalk · Panjamo · Berlin, Deutschland</p>
+    <p>WonderWalk · Panjamo · Berlin, Germany</p>
     <p><a href="https://github.com/panjamo/WonderWalk">github.com/panjamo/WonderWalk</a></p>
   </footer>
 
