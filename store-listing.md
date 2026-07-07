@@ -1,8 +1,8 @@
 # Play Store description (English)
 
-## Short description (max. 80 characters)
+## Short description (max. 80 characters — keep English ≤ 50 so translations still fit)
 
-AI audio guide: GPS finds places, Gemini tells you their story as you walk.
+AI audio guide: places narrated as you walk.
 
 ## Full description (max. 4000 characters)
 
