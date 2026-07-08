@@ -7,7 +7,7 @@
 ## Vollständige Beschreibung (max. 4000 Zeichen)
 
 🐚 PILGER-EDITION — EINFÜHRUNGSANGEBOT
-Ich bin rund drei Monate auf dem Jakobsweg nach Santiago unterwegs – in dieser Zeit gibt es keine Updates. Deshalb startet WonderWalk jetzt zum vergünstigten Einführungspreis. Wenn ich zurück bin, behebe ich jeden gemeldeten Fehler und baue weiter. Buen Camino! 🥾
+Ich bin rund vier Monate auf dem Jakobsweg nach Santiago unterwegs – in dieser Zeit gibt es keine Updates. Deshalb startet WonderWalk jetzt zum vergünstigten Einführungspreis. Wenn ich zurück bin, behebe ich jeden gemeldeten Fehler und baue weiter. Buen Camino! 🥾
 
 WonderWalk macht aus jedem Spaziergang eine Entdeckungsreise. Die App erkennt automatisch interessante Orte um dich herum und lässt die Google-Gemini-KI ihre Geschichte erzählen – ganz automatisch, wenn du magst, Schritt für Schritt, ohne aufs Handy zu schauen.
 

@@ -7,7 +7,7 @@ AI audio guide: places narrated as you walk.
 ## Full description (max. 4000 characters)
 
 🐚 PILGRIM EDITION — LAUNCH OFFER
-I'm walking the Camino de Santiago for about three months, so there won't be any updates during that time. That's why WonderWalk launches at a special reduced price now. When I'm back, I'll fix every reported bug and keep building. Buen Camino! 🥾
+I'm walking the Camino de Santiago for about four months, so there won't be any updates during that time. That's why WonderWalk launches at a special reduced price now. When I'm back, I'll fix every reported bug and keep building. Buen Camino! 🥾
 
 WonderWalk turns every walk into a journey of discovery. The app automatically recognizes interesting places around you and lets the Google Gemini AI tell you their story – fully automatic if you like, step by step, without looking at your phone.
 
